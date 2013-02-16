@@ -14,7 +14,7 @@ require('header.inc');
 
   // Создать короткие имена переменных
 
-  $DOCUMENT_ROOT = $HTTP_SERVER_VARS['DOCUMENT_ROOT'];
+  //$DOCUMENT_ROOT = $HTTP_SERVER_VARS['DOCUMENT_ROOT'];
 
 ?>
 
@@ -56,7 +56,7 @@ $user="bdb2f929fc3e63";
 
 $password="d690678f";
 
-$db="nazimovAx12eEUib"
+$db="nazimovAx12eEUib";
 
 
 
