@@ -1,4 +1,3 @@
-
 <?php
 
 require('header.inc');
@@ -46,11 +45,11 @@ require('header.inc');
 
   //создать короткие имена переменных 
 
-  $tireqty = $HTTP_POST_VARS['tireqty'];
+  //$tireqty = $HTTP_POST_VARS['tireqty'];
 
-  $oilqty = $HTTP_POST_VARS['oilqty'];
+  //$oilqty = $HTTP_POST_VARS['oilqty'];
 
-  $sparkqty = $HTTP_POST_VARS['sparkqty'];
+  //$sparkqty = $HTTP_POST_VARS['sparkqty'];
 
 
 
