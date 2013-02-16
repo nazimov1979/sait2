@@ -11,13 +11,13 @@ require('header.inc');
 
   // Создать короткие имена переменных
 
-  $tireqty = $HTTP_POST_VARS['tireqty'];
+  $tireqty = $_POST['tireqty'];
 
-  $oilqty = $HTTP_POST_VARS['oilqty'];
+  $oilqty = $_POST['oilqty'];
 
-  $sparkqty = $HTTP_POST_VARS['sparkqty'];
+  $sparkqty = $_POST['sparkqty'];
 
-  $address = $HTTP_POST_VARS['address'];
+  $address = $_POST['address'];
 
   $DOCUMENT_ROOT = $HTTP_SERVER_VARS['DOCUMENT_ROOT'];
 
@@ -32,13 +32,13 @@ require('header.inc');
 
 
 
-$hostname="localhost";
+$hostname="us-cdbr-azure-west-b.cleardb.com";
 
-$user="root";
+$user="bdb2f929fc3e63";
 
-$password="root";
+$password="d690678f";
 
-$db="lab3";
+$db="nazimovAx12eEUib";
 
 
 
