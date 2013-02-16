@@ -4,7 +4,7 @@
 
  <title>РГТЭУ Кемеровский институт</title>
 
- <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
  <META name="Author" content="http://ailus.ru"><meta name="Copyright" content="http://ailus.ru">
 
