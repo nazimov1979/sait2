@@ -31,7 +31,6 @@ require('header.inc');
 
 
 
-
 <form action="processorder_3.php" method=post>
 
 <table border=0>
