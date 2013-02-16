@@ -1,3 +1,30 @@
-hellow php!!!
-<? phpinfo();
+
+
+
+<?php
+
+require('header.inc');
+
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+
+require('footer.inc');
+
+?>
+
+
+
+
