@@ -11,13 +11,13 @@ require('header.inc');
 
   // Создать короткие имена переменных
 
-  $tireqty = $HTTP_POST_VARS['tireqty'];
+  $tireqty = $_POST['tireqty'];
 
-  $oilqty = $HTTP_POST_VARS['oilqty'];
+  $oilqty = $_POST['oilqty'];
 
-  $sparkqty = $HTTP_POST_VARS['sparkqty'];
+  $sparkqty = $_POST['sparkqty'];
 
-  $address = $HTTP_POST_VARS['address'];
+  $address = $_POST['address'];
 
   
 
