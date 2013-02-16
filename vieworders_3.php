@@ -50,13 +50,13 @@ require('header.inc');
 
 
 
-$hostname="localhost";
+$hostname="us-cdbr-azure-west-b.cleardb.com";
 
-$user="root";
+$user="bdb2f929fc3e63";
 
-$password="root";
+$password="d690678f";
 
-$db="lab3";
+$db="nazimovAx12eEUib"
 
 
 
