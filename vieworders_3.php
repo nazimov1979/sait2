@@ -114,6 +114,83 @@ else
 
 
 
+$query_1="select zakaz.id, zakaz.fio, zakaz.adress, zakaz.data, tovar.id, tovar.tiregty, tovar.oilgty, tovar.sparkgty FROM zakaz, tovar where  zakaz.id=tovar.id order by zakaz.data";
+
+$result_1=mysql_query ($query_1);
+
+
+
+
+?>
+
+<table border=1 color=black width=100% height=100%>
+
+<tr>
+
+<td><b>№</b></td><td><b>ФИО</b></td><td><b>Адрес</b></td><td><b>Дата заказа</b></td><td><b>покрышки</b></td><td><b>масла</b></td><td><b>свечи</b></td>
+
+<?
+
+
+
+
+while ($row_1=mysql_fetch_array ($result_1)) {
+
+
+
+
+$id=$row_1["id"];
+
+$fio=$row_1["fio"];
+
+$adress=$row_1["adress"];
+
+$data=$row_1["data"];
+
+$tireqty=$row_1["tiregty"];
+
+$oilqty=$row_1["oilgty"];
+
+$sparkqty=$row_1["sparkgty"];
+
+
+
+
+?><tr>
+
+
+
+
+<td> <? echo $id ?> </td><td> <? echo $fio ?> </td><td> <? echo $adress ?> </td><td> <? echo $data ?> </td><td> <? echo $tireqty ?> </td><td> <? echo $oilqty ?> </td><td> <? echo $sparkqty ?> </td>
+
+
+
+
+</tr>
+
+
+
+
+<?
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+?> </table> <?
 
 
 
